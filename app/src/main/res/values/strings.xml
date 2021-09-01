@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Netflix</string>
+    <string name="new_to_netflix_sign_up">New to NETFLIX? Sign Up</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">PASSWORD</string>
+    <string name="email">Email</string>
+    <string name="swipe_screen">Swipe Screen</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="get_started">Get Started</string>
+    <string name="todo">TODO</string>
+    <string name="see_your_plans">SEE YOUR PLANS</string>
+    <string name="no_adds_and_no_extra_fees_ever">No adds and No extra fees ever</string>
+    <string name="everything_on_netflix_for_one_low_price">Everything on NETFLIX for one low price</string>
+    <string name="no_commitments_canle_at_any_time">No commitments, canle at any time</string>
+    <string name="choose_your_plan">Choose your plan.</string>
+    <string name="step_1_of_3">Step 1 of 3</string>
+</resources>

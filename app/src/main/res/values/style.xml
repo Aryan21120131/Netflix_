@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.custom" parent="Theme.AppCompat">
+        <item name="colorAccent">#F00707</item>
+    </style>
+</resources>
