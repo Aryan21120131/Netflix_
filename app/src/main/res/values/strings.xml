@@ -8,11 +8,24 @@
     <string name="swipe_screen">Swipe Screen</string>
     <string name="main_screen">Main Screen</string>
     <string name="get_started">Get Started</string>
-    <string name="todo">TODO</string>
     <string name="see_your_plans">SEE YOUR PLANS</string>
     <string name="no_adds_and_no_extra_fees_ever">No adds and No extra fees ever</string>
     <string name="everything_on_netflix_for_one_low_price">Everything on NETFLIX for one low price</string>
     <string name="no_commitments_canle_at_any_time">No commitments, canle at any time</string>
     <string name="choose_your_plan">Choose your plan.</string>
     <string name="step_1_of_3">Step 1 of 3</string>
+    <string name="mobile">Mobile</string>
+    <string name="myr_199_month">MYR 199/Month</string>
+    <string name="todo">TODO</string>
+    <string name="mobile_add">Mobile+</string>
+    <string name="myr_399_month">MYR 399/Month</string>
+    <string name="basic">Basic</string>
+    <string name="myr_499_month">MYR 499/Month</string>
+    <string name="standard">Standard</string>
+    <string name="myr_649_month">MYR 649/Month</string>
+    <string name="premium">Premium</string>
+    <string name="myr_799_month">MYR 799/Month</string>
+    <string name="continu">CONTINUE</string>
+    <string name="choose_the_plan_that_s_right_for_you">Choose the plan that\'s right for you</string>
+    <string name="download_of_update_at_any_time">Download of update at any time</string>
 </resources>

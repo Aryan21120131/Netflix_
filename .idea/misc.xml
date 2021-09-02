@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Aryan Sharma/AndroidProject/Netflix/app/src/main/res/layout-v21/activity_choose_your_plan.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/Aryan Sharma/AndroidProject/Netflix/app/src/main/res/layout/activity_choose_your_plan.xml" value="0.1" />
+        <entry key="..\:/Users/Aryan Sharma/AndroidProject/Netflix/app/src/main/res/layout/activity_finish_up_account.xml" value="0.176" />
+        <entry key="..\:/Users/Aryan Sharma/AndroidProject/Netflix/app/src/main/res/layout/activity_main_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Aryan Sharma/AndroidProject/Netflix/app/src/main/res/layout/activity_step_one.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/Aryan Sharma/AndroidProject/Netflix/app/src/main/res/layout/step_toolbar.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Aryan Sharma/AndroidProject/Netflix/app/src/main/res/layout/toolbar_layout.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Aryan/AndroidStudioProjects/Netflix/app/src/main/res/layout/activity_choose_your_plan.xml" value="0.17980072463768115" />
         <entry key="..\:/Users/Aryan/AndroidStudioProjects/Netflix/app/src/main/res/layout/activity_signin.xml" value="1.0" />
         <entry key="..\:/Users/Aryan/AndroidStudioProjects/Netflix/app/src/main/res/layout/activity_splash_screen.xml" value="0.2164855072463768" />
