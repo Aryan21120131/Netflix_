@@ -1,7 +1,9 @@
 package com.example.netflix.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +11,7 @@ import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.netflix.R;
 
@@ -30,16 +33,13 @@ public class ChooseYourPlan extends AppCompatActivity {
 //        Basic_radio.setOnCheckedChangeListener(new RadioCheck());
 //        Standard_radio.setOnCheckedChangeListener(new RadioCheck());
 //        Premium_radio.setOnCheckedChangeListener(new RadioCheck());
-//        Basic_radio.setChecked(true);
-        continue_.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(ChooseYourPlan.this,FinishUpAccount.class);
-                intent.putExtra("PlanName",selected_plan_name);
-                intent.putExtra("PlanCost",selected_plan_cost);
-                intent.putExtra("PlanCostFormat",selected_plan_format_of_cost);
-                startActivity(intent);
-            }
+//        SD_radio.setChecked(true);
+        continue_.setOnClickListener(view -> {
+            Intent intent=new Intent(ChooseYourPlan.this,FinishUpAccount.class);
+            intent.putExtra("PlanName",selected_plan_name);
+            intent.putExtra("PlanCost",selected_plan_cost);
+            intent.putExtra("PlanCostFormat",selected_plan_format_of_cost);
+            startActivity(intent);
         });
         SignIn.setOnClickListener(v -> startActivity(new Intent(ChooseYourPlan.this,SigninActivity.class)));
     }
@@ -58,6 +58,7 @@ public class ChooseYourPlan extends AppCompatActivity {
     }
 
     class RadioCheck implements CompoundButton.OnCheckedChangeListener, View.OnClickListener {
+        @SuppressLint("NonConstantResourceId")
         @Override
         public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
             if(b){

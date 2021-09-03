@@ -23,10 +23,11 @@
 
         <ImageView
             android:id="@+id/imageView13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/finish_check" />
+            app:srcCompat="@drawable/finish_check"
+            tools:ignore="VectorDrawableCompat" />
 
         <TextView
             android:id="@+id/textView9"
@@ -34,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="STEP 1 OF 3"
+            android:text="@string/step_1_of_3_text"
             android:textSize="20sp" />
 
         <TextView
@@ -43,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="FINISH SETTING UP YOUR ACCOUNT"
+            android:text="@string/finish_setting_up_your_account"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -52,16 +53,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Netflix is personalised for you.Create a password to watch Netflix on any device at any time"
+            android:text="@string/netflix_is_personalised_for_you_create_a_password_to_watch_netflix_on_any_device_at_any_time"
             android:textSize="25sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/finish_continue_"
             android:layout_width="291dp"
             android:layout_height="58dp"
             android:layout_gravity="center"
             android:background="@color/activeDots"
-            android:text="CONTINUE"
+            android:text="@string/continue_finish"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
     </LinearLayout>

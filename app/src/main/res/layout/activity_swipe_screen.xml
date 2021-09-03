@@ -27,7 +27,8 @@
                 android:src="@drawable/netflix_logo_2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"></ImageView>
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/todo" />
 
             <TextView
                 android:id="@+id/privacy"
@@ -36,7 +37,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
-                android:text="PRIVACY"
+                android:text="@string/privacy"
                 android:textColor="#fff"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toStartOf="@+id/help"
@@ -49,7 +50,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
-                android:text="HELP"
+                android:text="@string/help"
                 android:textColor="#fff"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toStartOf="@+id/Signin"
@@ -62,7 +63,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
-                android:text="Sign In"
+                android:text="@string/sign_in"
                 android:textAllCaps="false"
                 android:textColor="#fff"
                 android:textSize="20sp"
@@ -114,7 +115,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
@@ -122,31 +123,36 @@
                     android:id="@+id/imageView5"
                     android:layout_width="350dp"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/net_img1" />
+                    app:srcCompat="@drawable/net_img1"
+                    android:contentDescription="@string/todo" />
 
                 <ImageView
                     android:id="@+id/imageView6"
                     android:layout_width="350dp"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/net_img2" />
+                    app:srcCompat="@drawable/net_img2"
+                    android:contentDescription="@string/todo" />
 
                 <ImageView
                     android:id="@+id/imageView7"
                     android:layout_width="350dp"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/net_img3" />
+                    app:srcCompat="@drawable/net_img3"
+                    android:contentDescription="@string/todo" />
 
                 <ImageView
                     android:id="@+id/imageView8"
                     android:layout_width="350dp"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/net_img4" />
+                    app:srcCompat="@drawable/net_img4"
+                    android:contentDescription="@string/todo" />
 
                 <ImageView
                     android:id="@+id/imageView9"
                     android:layout_width="350dp"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/net_img5" />
+                    app:srcCompat="@drawable/net_img5"
+                    android:contentDescription="@string/todo" />
             </LinearLayout>
         </HorizontalScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,7 +2,6 @@
     <string name="app_name">Netflix</string>
     <string name="new_to_netflix_sign_up">New to NETFLIX? Sign Up</string>
     <string name="forgot_password">Forgot Password</string>
-    <string name="sign_in">Sign In</string>
     <string name="password">PASSWORD</string>
     <string name="email">Email</string>
     <string name="swipe_screen">Swipe Screen</string>
@@ -28,4 +27,11 @@
     <string name="continu">CONTINUE</string>
     <string name="choose_the_plan_that_s_right_for_you">Choose the plan that\'s right for you</string>
     <string name="download_of_update_at_any_time">Download of update at any time</string>
+    <string name="step_1_of_3_text">STEP 1 OF 3</string>
+    <string name="finish_setting_up_your_account">FINISH SETTING UP YOUR ACCOUNT</string>
+    <string name="netflix_is_personalised_for_you_create_a_password_to_watch_netflix_on_any_device_at_any_time">Netflix is personalised for you.Create a password to watch Netflix on any device at any time</string>
+    <string name="continue_finish">CONTINUE</string>
+    <string name="privacy">PRIVACY</string>
+    <string name="help">HELP</string>
+    <string name="sign_in">Sign In</string>
 </resources>
